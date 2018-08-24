@@ -1,0 +1,55 @@
+body {
+  font-size: 1.2em;
+
+}
+html {
+  background-color: #cae3f6;
+}
+
+h1 {
+  color: #0b2833;
+  border: solid 1px black;
+  border-radius:10px;
+  padding:10px;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+  display: none;
+}
+
+a {
+
+}
+
+.row {
+  background-color: #cae3f6;
+}
+.loading-icon {
+  position: absolute;
+  left: 50%;
+  top: 10px;
+}
+
+li[ui-sref]:hover {
+  display: inline-block;
+  cursor: pointer;
+  border: solid black 1px;
+  padding-left: 5px;
+  padding-right: 5px;
+  text-decoration:none;
+}
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+li {
+  border: solid black 1px;
+  border-radius: 20px;
+  text-align: center;
+  text-decoration:none;
+  margin-bottom:10px;
+  color: #004864;
+  padding:4px;
+}
