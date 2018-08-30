@@ -32,7 +32,7 @@ $stateProvider
 
 //items state after ui-sref clicked
 .state('items', {
-  url: '/items',
+  url: '/items/{category}',
   templateUrl: 'template/items.template.html',
   controller: 'ItemsController as itControl',
   resolve: {
